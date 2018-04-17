@@ -45,16 +45,18 @@
                     </div>
                     <input type="text" id="article-eyear"><br>
                     <div class="form-row">
-                        <button id="search" class="btn btn-secondary" type="submit" value="Search">Search</button>
-                        <button id="clear" class="btn btn-secondary" type="reset" value="Clear">Clear</button>
+                        <button id="search" class="btn btn-secondary" type="submit" value="Search" style="margin-top:10px" "padding:10px" ><iclass="fa fa-search fa-fw"></i> Search</button>
+                        <button id="clear" class="btn btn-secondary" type="reset" value="Clear" style="margin-top:10px" "padding:10px" ><i class="fa fa-refresh fa-fw"></i> Clear</button>
                     </div>
                 </form>
             </div>
             <div class="panel panel-primary">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Top Articles</h3>
+                    <h3 class="panel-title"><i class="fa fa-list"></i> Top Articles</h3>
                 </div>
-                <div class="panel-body display">
+                <div class="panel-body display"> 
+</div>
+
                        
                 </div>
             </div>
@@ -106,6 +108,7 @@
         $("#clear").on("click", function(event) {
             $(".display").html("");
         })
+        
     </script>
 </body>
 </html>
